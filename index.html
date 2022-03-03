@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="./assets/fontawesome-free-5.15.4-web/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/Css/base.css">
+        <link rel="stylesheet" href="./assets/Css/main.css">
+        <link rel="stylesheet" href="./assets/Css/grid.css">
+        <link rel="stylesheet" href="./assets/Css/responsive.css">
+        <title>Marketing 61B</title>
+        <link rel="icon" href="./assets/img/heart_icon_128499.png" type="image/x-icon" />
+    </head>
+    <body>
+        <div id="main">
+            <header id="header">
+                <div class="header__logo header__font">
+                    <span>MARKETING 61B</span>
+                </div>
+                <nav class="nav__pc">
+                    <ul class="header__list">
+                        <li>
+                            <a href="#" class="header__link">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="#content" class="header__link">Sự kiện</a>
+                        </li>
+                        <li>
+                            <a href="#content__member" class="header__link">Thành viên</a>
+                        </li>
+                        <li>
+                            <a href="#footer" class="header__link">Thông tin</a>
+                        </li>
+                    </ul>  
+                </nav> 
+
+                <label for="nav__mobile-input" class="nav__bars-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+
+                <input type="checkbox" hidden id="nav__mobile-input" class="nav__mobile-checkbox">
+                <label for="nav__mobile-input" class="nav__bars-overlay"></label>
+                    
+                <nav class="nav__mobile">
+                    <label for="nav__mobile-input" class="nav__bars-close">
+                        <i class="fas fa-times"></i>
+                    </label>
+                    <ul class="header__mobile-list">
+                        <li>
+                            <a href="#" class="header__mobile-link">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="#content" class="header__mobile-link">Sự kiện</a>
+                        </li>
+                        <li>
+                            <a href="#content__member" class="header__mobile-link">Thành viên</a>
+                        </li>
+                        <li>
+                            <a href="#footer" class="header__mobile-link">Thông tin</a>
+                        </li>
+                    </ul>  
+                </nav> 
+
+            </header>
+            <div id="slider">
+                <div class="slider__content">
+                    <img src="./assets/img/116429140_319305899115118_695573159892068993_n.jpg" alt="Event" class="slider__img">
+                    <div class="slider__text">
+                        <h2 class="slider__heading"></h2>
+                        <p class="slider__body"></p>
+                    </div>
+                </div>
+                <div class="slider__content">
+                    <img src="./assets/img/240240505_1180881035736640_6548319546381852962_n.jpg" alt="Event" class="slider__img">
+                    <div class="slider__text">
+                        <h2 class="slider__heading"></h2>
+                        <p class="slider__body"></p>
+                    </div>
+                </div>
+                <div class="slider__content">
+                    <img src="./assets/img/69477701_2344763719121645_3159695233646592000_n.jpg" alt="Event" class="slider__img">
+                    <div class="slider__text">
+                        <h2 class="slider__heading"></h2>
+                        <p class="slider__body"></p>
+                    </div>
+                </div>
+                <a class="slider__control-btn" onclick="plusSlides(-1)">
+                    <i class="slider__control-icon fas fa-angle-left"></i>
+                </a>
+                <a class="slider__control-btn" onclick="plusSlides(1)">
+                    <i class="slider__control-icon fas fa-angle-right"></i>
+                </a>
+            </div>
+            <div id="content">
+                <div class="content__event">
+                    <div class="grid wide">
+                        <h2 class="content__heading">Sự kiện <i class="fa fa-calendar"></i></h2>
+                        <div class="row content__list">
+                            <div class="col l-6 m-6 c-12">
+                                <a href="https://www.facebook.com/groups/2256730574426024/posts/4362817960483931/" class="event__timeline-item">
+                                    <img src="./assets/img/122088148_654791415206778_3506189492237601171_n.jpg" alt="" class= "event__timeline-img">
+                                    <h3 class="event__timeline-title"></h3>
+                                </a>
+                            </div>
+                            <div class="col l-6 m-6 c-12" >
+                                <a href="https://www.facebook.com/photo.php?fbid=2396805360584147&set=pb.100007641188097.-2207520000..&type=3" class="event__timeline-item">
+                                    <img src="./assets/img/73287162_2396805367250813_5062244357113905152_n.jpg" alt="" class= "event__timeline-img">
+                                    <h3 class="event__timeline-title"></h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div id="content__member">
+                    <div class="grid wide">
+                        <h2 class="content__heading">XINH ĐẸP <i class="far fa-kiss-wink-heart"></i></h2>
+                        <div class="row content__list ">
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/haan.nguyenthanh.73" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')" >
+                                        <img src="./assets/img/Ảnh đăng instagram/An.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/profile.php?id=100005742674992" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Anh Lan Trương.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/quynan0209" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Anh Quỳnh.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/tuanh.431" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Anh Tú.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/anhbtn.neu" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Ánh.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/linhchi7012" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Chi.jpeg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/nam.dung210301" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Dung.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/profile.php?id=100008071336838" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Dương.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/giangpq.neu" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Giang.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/hie.dth.25" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Hiền.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/profile.php?id=100013189273931" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Hoa.PNG" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/tnhuyen.2001" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Huyền.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/edy.hiiiii" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Hương.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/profile.php?id=100012489286982" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Hằng.jpeg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/khanhlinh.O18" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Linh Khánh Nguyễn.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/khanhlinh.lam.31" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Linh Lâm.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/linhnguyenlucy" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Linh Thùy Nguyễn.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/profile.php?id=100009525206550" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Linh Tuyết.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/profile.php?id=100013331646672" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Mai.JPG" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/lemaingocminh" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Minh.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/myhoangg216" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/My.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/nguyetnguyen2904" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Nguyệt.JPG" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/hieu.ngan.940641" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Ngân.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/nhihoang2612" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Nhi.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/lophuongot" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Phượng.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/profile.php?id=100027189262443" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Quyên.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/xuanquynh.ngo.10" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Quỳnh.JPG" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/profile.php?id=100006318729090" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Thương.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/thao.binbintt" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Thảo.png" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/trangmaihy2001" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Trang.JPG" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/happyheart2411" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Tâm.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="facebook.com/van.sky.395" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Vân.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/profile.php?id=100012838571575" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Xuân.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <div class="member__item">
+                                    <a href="https://www.facebook.com/yenhainguyen0607" class="member__link" onclick="alert('Chúc bạn ngày 8/3 vui vẻ, xinh đẹp và hạnh phúc !   Cậu nhấn OK để vào trang cá nhân nhé ≧◡≦')">
+                                        <img src="./assets/img/Ảnh đăng instagram/Yến.jpg" alt="" class="member__img">
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            
+                        </div>
+                    </div>
+                </div>                 
+            </div>
+
+            <footer id="footer">
+                <div class="footer__list">
+                    <a href="https://www.facebook.com/groups/2256730574426024" class="footer__list-item">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_marketem_/" class="footer__list-item">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://youtu.be/8Y_VwoGESCg" class="footer__list-item">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                <h2 class="footer__content">Made by <a href="https://www.facebook.com/profile.php?id=100012612617732">Duc Viet</a> with love <i class="fas fa-heart"></i></h2>
+            </footer>
+
+        </div>   
+        
+    </body>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slider__content");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex-1].style.display = "block"; 
+        }          
+    </script>
+</html>

@@ -1,0 +1,15 @@
+:root {
+    --text-color: #333;
+    --primary-color: #2b3c19;
+    --border-color: #e8e8e8;
+    --header-height: 56px;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
